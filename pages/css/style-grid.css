@@ -1,0 +1,234 @@
+.large-1{
+  width: 8.33%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-2{
+  width: 16.67%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-3{
+  width: 25%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-4{
+  width: 33.33%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-5{
+  width: 41.67%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-6{
+  width: 50%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-7{
+   width: 58.33%;
+   float: left;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.large-8{
+  width: 66.67%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-9{
+  width: 75%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-10{
+  width: 83.33%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-11{
+  width: 91.67%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.large-12{
+  width: 100%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container {
+    width: 100%;
+    float: left;
+    padding: 0 50px;
+}
+button.button2 {
+    margin-top: 13px;
+}
+.image-section{
+  padding-left: 15px;
+}
+.grid-upper{
+  width: 500px;
+  float:right;
+  margin-bottom:10px;
+}
+.columns{
+  text-align: center;
+}
+.count-det{
+  font-size: 30px;
+}
+.grid-header{
+  margin-left:10px;
+  padding-top:12px;
+  z-index: 100;
+  float:none;
+  position: absolute;
+}
+.show-det{
+  padding:2px;
+  padding-right:10px;
+  z-index: 10;
+  float:left;
+}
+.show-btn{
+  z-index: 10;
+  float:left;
+}
+button.controlButtons {
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer; 
+}
+.text-abs{
+  margin-top:4px;
+  padding-left:10px;
+  z-index: 10;
+  float:left;
+  padding-right:10px;
+}
+.date-pick-gr{
+   z-index: 10;
+   float:left;
+}
+.ship-up{
+  margin-top:20px;
+}
+.ship-table{
+  margin-top:-7px!important;
+  margin-bottom:-7px!important;
+}
+.ship-td{
+  border-top: none;
+  width: 50%;
+}
+/*script css's*/
+#orderTable_filter input{
+    color: black;
+    width:inherit;
+    margin:0;
+    display:inline;
+    padding-right:5px;
+    margin-left:6px;
+    font-size:.7em
+}
+
+td.details-control {
+    background: url('//next.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('//next.datatables.net/examples/resources/details_close.png') no-repeat center center;
+}
+
+#orderTable_wrapper {
+  font-size: 14px;
+}
+
+#orderTable_filter {
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+#orderTable_info {
+    padding-left: 10px;
+}
+
+#orderTable_length {
+    display: none;
+}
+
+#shipmentId.modal {
+    width: 400px;
+    height: 200px;
+    z-index: -9999;
+}
+
+.noBreak {
+    white-space: nowrap;
+}
+
+.controlButtons {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 13px;
+    background-color: #a90434;
+    color:white;
+    font-weight:600;
+    cursor: pointer; 
+
+}
+
+table.dataTable thead th.ui-state-default {
+  color: black;
+}
+
+table.dataTable tbody tr.even {
+    background: #f9f9f9;
+}
+.row { 
+  margin-left: auto;
+  margin-right: auto;
+}
+    
+#map_canvas {
+    width: 300px;
+    height: 300px;
+}
+table.dataTable tbody th, table.dataTable tbody td, table.dataTable thead th.ui-state-default  {
+    font-size: 14px;
+}
+/*wordpress twentyseventeen modify css*/
+header.entry-header{
+  display: none;
+}
+.entry-content{
+  width: 100% !important;
+}
+@media screen and (max-width: 728px){
+    .large-4,.large-8{
+      width: 100%;
+    }
+} 
+@media screen and (max-width: 1024px) and (min-width: 729px){
+    .large-4,.large-8{
+      width: 50%;
+    }
+} 
